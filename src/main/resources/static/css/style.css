@@ -1,0 +1,20 @@
+.bg{
+    background-color: #4915FF;
+    background-repeat: no-repeat;
+}
+.title{
+    color: white;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+.action-btn{
+    padding: 10px;
+    border: solid;
+    border-color: aquamarine;
+    border-width: 3px;
+    font-weight: bolder;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 80px;
+    width: 200px;
+}
