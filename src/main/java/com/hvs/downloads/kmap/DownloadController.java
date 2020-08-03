@@ -29,7 +29,7 @@ public class DownloadController {
     @GetMapping("/k-map")
     public ResponseEntity<InputStreamResource> downloadKMap() throws URISyntaxException, IOException {
         URL url = new ClassPathResource("/downloads/" + APP).getURL();
-        File file = new File(getClass().getResource("/app-debug.apk").toExternalForm());
+        File file = new File(getClass().getResource("/downloads/app-debug.apk").toExternalForm());
         InputStreamResource inputStreamResource = new InputStreamResource(new FileInputStream(file));
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION, "attachment;filename=" + APP
