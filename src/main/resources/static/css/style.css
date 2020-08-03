@@ -9,12 +9,12 @@
 }
 .action-btn{
     padding: 10px;
-    border: solid;
-    border-color: aquamarine;
-    border-width: 3px;
-    font-weight: bolder;
+    border: solid !important;
+    border-color: aquamarine !important;
+    border-width: 2px !important;
+    font-weight: bolder !important;
     background-color: blueviolet;
-    color: white;
-    border-radius: 80px;
+    color: white !important;
+    border-radius: 80px !important;
     width: 200px;
 }

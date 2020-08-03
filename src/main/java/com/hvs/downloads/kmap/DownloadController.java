@@ -38,7 +38,7 @@ public class DownloadController {
     public String getIndex() {
         return "index";
     }
-    
+
     @GetMapping("/k-map")
     public ResponseEntity<InputStreamResource> downloadKMap() throws URISyntaxException, IOException {
         URL url = new ClassPathResource("/downloads/" + APP).getURL();
